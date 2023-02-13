@@ -1,0 +1,9 @@
+Abra o Bloco de Notas com privilégios administrativos.
+Copie e cole o seguinte trecho de código:
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"MyProgram"="C:\caminho\para\seu\programa.exe"
+
+Salve o arquivo com a extensão ".reg" (por exemplo, "startup.reg").
+Clique duas vezes no arquivo .reg que você acabou de salvar para adicionar a entrada ao registro.
